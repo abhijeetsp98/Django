@@ -1,0 +1,10 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<h1>Your vote has been selected for {{ party }} party</h1>
+<form  method="POST">
+    {% csrf_token %}
+    <input type="radio"  id="p" name="party" value={{ party }}>
+    <label for="p">{{ party }}</label><br>
+    <button class="btn btn-outline-info" type="submit" name="party" value="{{ party }}">Click here to submit vote</button>
+</form>
+{% endblock content %}

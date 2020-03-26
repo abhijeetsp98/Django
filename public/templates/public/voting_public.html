@@ -1,0 +1,19 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+        <form method="POST" action='' enctype="multipart/form-data">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Face Recognition for public</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Start Webcam</button>
+                <br><br>
+                <legend class="border-bottom mb-4">Press "s" when you are ready to take snapshot</legend>
+            </div>
+        </form> 
+        <h1> {{ state }} </h1>
+    </div>
+{% endblock content %}
