@@ -9,13 +9,13 @@ Party: Individual party have the their own credential to login the system where 
 People: People will comes in and cast their votes their data has been added by the admin and voting is done by admin only so to perform the voting login with admin.
 
 # Credential:
-Admin: go to http://127.0.0.1:8000/admin/
-username: ECI
-password: testing321
+Admin: go to http://127.0.0.1:8000/admin/ <br>
+username: ECI <br>
+password: testing321 <br>
 
 # Party:
-username:BJP  # Name of the party and password is same for all
-password:testing321
+username:BJP  # Name of the party and password is same for all <br>
+password:testing321 <br>
 
 # Voting Process:
 Add user data using amdin credentails onces add then use voting button to perform voiting.
