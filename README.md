@@ -1,4 +1,3 @@
-![imaage1](https://github.com/abhijeetsp98/Django/blob/master/Screenshot%20from%202020-09-13%2018-18-29.png)
 # Django
 Check out requirement file for all dependency along with those we need face_recognition library which futher need cmake,dlib library check out stackoverflow if any problem comes in at the time of installation.
 
@@ -25,4 +24,4 @@ Add user data using amdin credentails onces add then use voting button to perfor
 3. Then face_recognition will detect the user after that if voted then tells it or else display list of candidates according to the user's location.
 4. User will cast the vote and registered as the user wo casted the vote.
 
-![imaage1](https://github.com/abhijeetsp98/Django/blob/master/Screenshot%20from%202020-09-13%2018-15-11.png)
+![imaage1](https://github.com/abhijeetsp98/Django/blob/master/Screenshot%20from%202020-09-13%2018-18-29.png)
