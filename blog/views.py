@@ -40,7 +40,7 @@ def votingBooth(request):
         context = {
         'posts': Post.objects.filter(state=public_state),
         }
-        return render(request, 'blog/VotingBooth.html', context)
+        return render(request, 'blog/votingBooth.html', context)
 
 
 
